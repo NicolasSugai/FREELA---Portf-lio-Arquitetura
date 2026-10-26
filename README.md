@@ -1,14 +1,19 @@
-# Ateliê Arquitetura
+# Luisa Santana Sales · Arquitetura e Urbanismo
 
-> Arquitetura que preserva histórias e renova a maneira de viver os espaços.
+Portfólio profissional de **Luisa Santana Sales**, arquiteta e urbanista formada pela Universidade Cidade de São Paulo (UNICID), CAU A334297-2. O site apresenta projetos, desenhos técnicos, experiências e canais profissionais de contato.
 
-Portfólio digital de um escritório dedicado a intervenções sensíveis em edifícios e interiores. O projeto apresenta uma identidade editorial, com foco na relação entre memória, materialidade e vida contemporânea.
+## Sobre o portfólio
 
-## Áreas de atuação
+A identidade visual parte do currículo e das pranchas de projeto da Luisa: verde sálvia, papel claro, linhas de desenho azuladas e anotações em vermelho. O conteúdo destaca sua atuação em desenvolvimento e detalhamento de projetos, documentação técnica, levantamento de edificações, pesquisa em patrimônio e acompanhamento de obras.
 
-- **Restauração:** recuperação e reabilitação de edifícios históricos com respeito às suas características originais.
-- **Conservação do patrimônio histórico:** pesquisa, documentação e cuidado com os valores culturais e materiais de cada lugar.
-- **Interiores:** espaços contemporâneos que integram conforto, uso e história.
+### Projetos apresentados
+
+- **Estúdio de Yoga:** leitura de uma edificação existente, estudos de demolição e construção e proposta de layout.
+- **Instituto Terapêutico Ayurvédico:** estudo de implantação e organização dos ambientes e percursos.
+- **Banheiro residencial:** detalhamento de interiores, vistas, cortes e especificação de materiais.
+- **Acompanhamento de obra:** registro de campo e documentação de etapas construtivas.
+
+As pranchas e as imagens foram extraídas dos materiais enviados pela autora. Os projetos são apresentados sem acrescentar clientes, locais ou datas que não constem nesses documentos.
 
 ## Tecnologias
 
@@ -17,50 +22,43 @@ Portfólio digital de um escritório dedicado a intervenções sensíveis em edi
 ![Vite](https://img.shields.io/badge/Vite-8-646cff?logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06b6d4?logo=tailwindcss&logoColor=white)
 
-## Começar
+## Executar localmente
 
-### Pré-requisitos
-
-- Node.js 20.19+ ou 22.12+
-- npm
-
-### Instalação e execução local
+Requisitos: Node.js 20.19+ ou 22.12+ e npm.
 
 ```bash
 npm install
 npm run dev
 ```
 
-O Vite informa no terminal o endereço local para abrir no navegador. Para gerar a versão de produção:
+Para validar e visualizar a versão de produção:
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Estrutura do projeto
+## Estrutura
 
 ```text
 .
-├── public/                 # Arquivos estáticos públicos
+├── public/
+│   └── projects/           # Imagens das pranchas e registros de projeto
 ├── src/
-│   ├── assets/             # Imagens e recursos importados
-│   ├── App.tsx             # Página principal do portfólio
-│   ├── App.css             # Estilos específicos da página
-│   ├── index.css           # Base e diretivas do Tailwind CSS
-│   └── main.tsx            # Inicialização React
-├── postcss.config.js       # Pipeline PostCSS
-├── tailwind.config.js      # Tema e caminhos de conteúdo do Tailwind
-└── vite.config.ts          # Configuração do Vite
+│   ├── App.tsx             # Seções e conteúdo do portfólio
+│   ├── App.css             # Identidade visual e adaptações responsivas
+│   ├── index.css           # Base global e diretivas Tailwind
+│   └── main.tsx            # Ponto de entrada React
+├── tailwind.config.js
+└── postcss.config.js
 ```
 
-## Boas práticas de contribuição
+## Contato profissional
 
-- Prefira commits pequenos, objetivos e escritos no imperativo, por exemplo: `feat: adicionar seção de projetos` ou `fix: ajustar navegação mobile`.
-- Separe mudanças de conteúdo, estilo e configuração quando isso deixar a revisão mais clara.
-- Mantenha componentes acessíveis, imagens com texto alternativo e layouts adaptáveis a telas menores.
-- Antes de enviar alterações, execute `npm run build` e revise o resultado local com `npm run dev`.
+- E-mail: [luisa.santasales@gmail.com](mailto:luisa.santasales@gmail.com)
+- LinkedIn: [linkedin.com/in/santasales](https://www.linkedin.com/in/santasales)
+- CAU: A334297-2
 
-## Licença
+## Contribuições
 
-Este repositório é um portfólio demonstrativo. Adicione aqui os termos de licença e atribuição dos conteúdos antes de redistribuí-lo.
+Use commits pequenos e descritivos no imperativo, por exemplo `feat: adicionar projeto de interiores` ou `fix: ajustar navegação mobile`. Antes de enviar alterações, execute `npm run build` e confira o layout em telas estreitas e largas.
